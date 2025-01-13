@@ -1,0 +1,146 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #ecf0f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background: #1c2833;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #1abc9c;
+  margin-bottom: 1.5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Form Styling */
+.query-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ecf0f1;
+}
+
+.form-control {
+  padding: 0.6rem;
+  border: 1px solid #7f8c8d;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #34495e;
+  color: #ecf0f1;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  color: #ecf0f1;
+  background: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #16a085;
+}
+
+/* Error Message Styling */
+.error-message {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  color: #ecf0f1;
+  background: #e74c3c;
+  border-radius: 5px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Response Styling */
+.response {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #2c3e50;
+  border-radius: 5px;
+  border: 1px solid #7f8c8d;
+}
+
+.response h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #1abc9c;
+}
+
+pre {
+  font-family: 'Courier New', monospace;
+  background: #1c2833;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #ecf0f1;
+  overflow-x: auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
