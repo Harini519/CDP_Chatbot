@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Project Overview: This chatbot provides support for answering "how-to" questions related to four popular Customer Data Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. It extracts relevant information from the official documentation of each CDP to help users perform tasks and achieve outcomes within these platforms.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Core Functionalities:
 
-## Available Scripts
+Answer "How-to" Questions:
 
-In the project directory, you can run:
+Answer user questions related to various tasks in the CDPs, such as setting up a new source in Segment or creating a user profile in mParticle.
+Extract Information from Documentation:
 
-### `npm start`
+Navigate through documentation and retrieve relevant instructions for user queries.
+Handle Variations in Questions:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The chatbot should be capable of handling size variations and irrelevant questions gracefully.
+Bonus Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cross-CDP Comparisons: Answer questions comparing the functionalities of the different CDPs.
+Advanced "How-to" Questions: Provide guidance on complex tasks, integrations, and configurations within the platforms.
+Tech Stack:
 
-### `npm test`
+NLP Libraries (or document indexer)
+Web Application (for chatbot interface)
+Evaluation Criteria:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Accuracy of responses.
+Handling variations in phrasing and terminology.
+Implementation of bonus features like cross-CDP comparisons.
+Note: This project aims to implement a chatbot capable of assisting users with queries about the four CDPs, but not necessarily using advanced NLP models.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
